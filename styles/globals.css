@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* The base is the base sort of classes we are going to have in the app, so the way we access that base is like this */
+
+@layer base {
+  body {
+    /* With the apply we can expect that tailwind Css and picked up.
+    [] means just before it runs apply this style of color for custom things*/
+    @apply bg-[#06202A] text-gray-300;
+  }
+}
