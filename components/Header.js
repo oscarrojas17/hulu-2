@@ -25,7 +25,8 @@ function Header() {
       
       <Image 
         className="object-contain"
-        src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" 
+        src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png"
+        alt="logo"
         width={200} 
         height={100} />
     </header>
