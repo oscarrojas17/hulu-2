@@ -1,6 +1,6 @@
 module.exports = {
   images: {
-    domains: ["press.hulu.com","image.tmdb.org"],
+    domains: ["press.hulu.com","links.papareact.com","image.tmdb.org"],
   },
 }
 
