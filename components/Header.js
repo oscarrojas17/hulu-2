@@ -1,17 +1,16 @@
-/* Here Im using lazy load, it's better for performance */
-import Image from "next/image";
-import HeaderItem from "../components/HeaderItem"
-import { 
+
+import {
   BadgeCheckIcon,
   CollectionIcon,
   HomeIcon,
   LightningBoltIcon,
   SearchIcon,
   UserIcon,
-} from '@heroicons/react/outline'
+} from "@heroicons/react/outline";
+import Image from "next/image";
+import HeaderItem from "./HeaderItem";
 
-
-function Header() {
+const Header = () => {
   return (
     <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
       <div className="flex flex-grow justify-evenly max-w-2xl">
@@ -22,16 +21,15 @@ function Header() {
         <HeaderItem title="SEARCH" Icon={SearchIcon} />
         <HeaderItem title="ACCOUNT" Icon={UserIcon} />
       </div>
-      
-      <Image 
+      <Image
         className="object-contain"
-        src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png"
-        alt="logo"
-        width={200} 
-        height={100} />
+        src="https://links.papareact.com/ua6"
+        width={200}
+        height={100}
+      />
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
 

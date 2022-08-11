@@ -1,0 +1,42 @@
+{
+  "files": {
+    "components/Thumbnail.js": [
+      {
+        "id": "6e2952cd-92e4-4c25-8786-19b22b1d12d1",
+        "line": 5,
+        "version": 632,
+        "index": 125
+      },
+      {
+        "id": "822b7f88-7c3d-414b-8f84-83e8b69aed94",
+        "line": 6,
+        "version": 632,
+        "index": 177
+      },
+      {
+        "id": "13ddb3a1-98e0-4835-aaf4-7a36ed691fc4",
+        "line": 8,
+        "version": 632,
+        "index": 237
+      },
+      {
+        "id": "111ccf69-5c54-4d80-9d9d-4b4aabef6505",
+        "line": 9,
+        "version": 632,
+        "index": 248
+      },
+      {
+        "id": "2c0acbe8-cf04-42d8-bbd1-fee9d6ea47c3",
+        "line": 10,
+        "version": 632,
+        "index": 257
+      },
+      {
+        "id": "5505a6e8-cc68-4479-9f36-ad7959930172",
+        "line": 11,
+        "version": 632,
+        "index": 273
+      }
+    ]
+  }
+}
